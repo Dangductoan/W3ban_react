@@ -1,0 +1,28 @@
+.W3__footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+.W3__footer-socials_list {
+  font-size: 36px;
+}
+.W3__footer-socials_list a {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 4px;
+}
+.W3__footer-copyright {
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.W3__footer-copyright a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.W3__footer-copyright a:hover,
+.W3__footer-socials_list a:hover {
+    color: rgba(0, 0, 0, 0.7)
+}
+@media screen and (max-width:46.1875em) {
+.W3__footer-socials_list {
+    font-size:24px;
+}
+
+}

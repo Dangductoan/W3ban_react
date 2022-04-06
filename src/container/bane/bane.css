@@ -1,0 +1,64 @@
+.W3__bane {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+.W3__bane-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.W3__bane-info h3 {
+   font-size: 30px;
+   font-weight:500;
+   letter-spacing:4px;
+}
+.W3__bane-info_heading {
+  font-size:15px;
+  font-style: italic;
+  opacity: 0.6;
+  padding-top:25px;
+
+}
+.W3__bane-info_about {
+  font-size:15px;
+  padding-top:25px;
+  line-height:1.5;
+  text-align:justify;
+}
+.W3__bane-member_list{
+    display: flex;
+    margin-top: 32px;
+}
+.W3__bane-member_item {
+    width:33.333%;
+    text-align:center;
+
+}
+.W3__bane-member_name {
+    text-align: center;
+    font-size: 16px;
+
+}
+.W3__bane-member_img {
+    width:60%;
+    margin-top: 16px;
+    border-radius: 4px;
+
+}
+@media screen and (max-width:46.1875em) {
+    .W3__bane-member_list{
+        display: flex;
+        flex-direction: column;
+    }
+    .W3__bane-member_item {
+        width:100%;
+    }
+    
+}
+
+
+

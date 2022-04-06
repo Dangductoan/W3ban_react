@@ -1,0 +1,21 @@
+.W3__header {
+    margin-top:46px;
+    background:url(../../assets/img/slider/slider1.jpg)top center /cover no-repeat;
+    padding-top:50%;
+}
+.W3__header .text-content {
+  color: #ccc;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.W3__header .text-content h3 {
+   font-size: 24px;
+}
+.W3__header .text-content p {
+   font-size:16px;
+   margin-top:25px;
+   text-shadow: 0 0 2px #000;
+}
+
+
+    
